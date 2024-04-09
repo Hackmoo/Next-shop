@@ -1,0 +1,12 @@
+.slideLeft {
+    animation: slideLeft 0.355s ease-in-out forwards;
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}

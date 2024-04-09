@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      padding: {
+        'globalX': '2.5rem',
+        'globalY': '0.5rem'
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
